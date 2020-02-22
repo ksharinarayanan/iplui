@@ -1,0 +1,43 @@
+
+.row
+{
+margin-top: 3vw;
+}
+.team1
+{
+    background: rgba(255,181,0,1);
+    top:2.5vw;
+    left:5vw;
+    z-index: 1;
+    width:20vw;
+    height:15vw;
+}
+.team2{
+    background: rgba(238,113,0,1);
+    top:2.5vw;
+    right:5vw;
+    z-index: 1;
+    width:20vw;
+    height:15vw;
+}
+.vs{
+    background: black;
+    width: 10vw;
+    height: 20vw;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    /* CSS in here for mobile only */
+
+   
+
+    .team1{
+        left:10vw;
+    }
+    .team2{
+        right: 10vw;
+    }
+
+}

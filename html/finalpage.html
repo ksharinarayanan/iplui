@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Page</title>
+    <!--Bootstrap Links-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
+    <!--Material Design Icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css"
+          rel="stylesheet">
+    
+    <!--swiper class links-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+
+
+    <!--Custom Css file-->
+    <link rel="stylesheet" href="../css/finalpage.css">
+    <link rel="stylesheet" href="../css/questioncarousel0.css">
+    <!--Font Awesome Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="finalpage">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-4 px-0 logo">
+                <div class="logowrapper">
+                    <img src="../asset/itrixlogo.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-8 px-0 dashboard">
+                <div class="row">
+                    
+                    <div class="col-4 col-md-4 px-0">
+                        <a onclick='ui()' style="text-decoration: none; color:black;">
+                        <div class="quiz" id="quiz">
+                           <div class="iconwrapper">
+                            <i class="fa fa-question-circle" style="color:white"></i>
+                           </div>
+                            <div class="tdiv">
+                                Quiz 1
+                            </div>
+                        </div>
+                    
+                     </div></a>
+                    <div class="col-4 col-md-4 px-0">
+                        <a onclick='ux()' style="text-decoration: none; color:black;">
+                        <div class="leaderboard" id="leaderboard">
+                            <div class="iconwrapper">
+                             <i class="fa fa-css3" style="color:white"></i>
+                            </div>
+                             <div class="tdiv">
+                                Quiz 2
+                             </div>
+                         </div></a>
+                    </div>
+                    <div class="col-4 col-md-4 px-0">
+                        <div class="rules">
+                            <div class="iconwrapper">
+                             <i class="fa fa-question-circle" style="color:white"></i>
+                            </div>
+                             <div class="tdiv" style="color:black">
+                                 Rules
+                             </div>
+                         </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        </div>
+        <div class="section1" id="section1" style="display: none;">
+
+            <div class="container">
+        
+                <div class="row justify-content-center">
+        
+                
+        
+               <div class="col-10 col-md-6">
+        
+                   <p>Hola, Virat</p>
+                   <div class="carousel">
+                    <!--Carousel Begins-->
+                    <section class="cd-slider">
+                        <!--section-->
+                 
+                    <ul>
+                        <!--first list-->
+                        <li data-color="#FF384B">
+                            <div class="content">
+                                <div class="imagecontainer">
+                                    <div class="imagewrapper">
+                                        <img src="../asset/one.jfif" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!--second list-->
+                        <li data-color="#FF9C00">
+                            <div class="content">
+                                <div class="imagecontainer">
+                                    <div class="imagewrapper">
+                                        <img src="../asset/two.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!--third list-->
+                        <li data-color="#002AFF">
+                            <div class="content">
+                                <div class="imagecontainer">
+                                    <div class="imagewrapper">
+                                        <img src="../asset/virat.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--navigation-->
+                    <nav>
+                    <div><a href="#" class="prev"></a></div>
+                    <div><a href="#" class="next"></a></div>
+                    </nav>
+                </section>
+                   </div>
+                   <div class="inputdiv">
+                    <form>
+                     <input type="text" placeholder="Answer Please!">
+                     </form>
+        </form>
+        
+                </div>
+                   
+        
+                   <div class="buttontag">
+        
+                       <div class="row">
+        
+                           <div class="col-6"> <button type="button" id="hintbutton"> Hint</button> </div>
+        
+                           <div class="col-6"> <button type="button" id="answerbutton">Answer</button> </div>
+        
+                      
+        
+                    </div>
+        
+                   </div>
+        
+              </div>
+        
+                </div>
+        
+            </div>
+        
+        </div>
+        <!--Carousel 0-->
+        
+    <div class="section1" id="section2" style="display: none;">
+        <div class="container">
+            <div class="row justify-content-center">
+            
+           <div class="col-10 col-md-6">
+               <p>Hola, Virat</p>
+               
+               <div class="carousel">
+                   <div class="firstcontainer">
+                       <div class="row">
+                           <div class="col-12 col-md-12 px-0">
+                            <div class="swiper-container image-slider">
+                                <div class="swiper-wrapper">
+                                    <!--slider 1-->
+                                    <div class="swiper-slide">
+                                        <div class="img-container">
+                                            <img src="../asset/one.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="containercontainer">
+                                            <div class="row">
+                                                <div class="col-md-8 offset-md-4 offset-3">
+                                                    <div class="wrapper">
+                                                       
+                                                        <div class="controls">
+                                                            <div class="swipper-button-prev ctrl prev-ctrl">
+                                                                <i class="material-icons">arrow_back</i>
+                                                                <!-- Icon has to be placed-->
+                                                            </div> 
+    
+                                                            <div class="swipper-button-next ctrl next-ctrl">
+                                                                <i class="material-icons">arrow_forward</i>
+                                                                <!-- Icon has to be placed-->
+                                                            </div> 
+                                                        </div>
+                                                    </div>
+    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+    
+                                    <!--slider 2-->
+                                    <div class="swiper-slide">
+                                        <div class="img-container">
+                                            <img src="../asset/virat1.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="containercontainer">
+                                            <div class="row">
+                                                <div class="col-md-8 offset-md-4 offset-3">
+                                                    <div class="wrapper">
+                                                       
+                                                        <div class="controls">
+                                                            <div class="swipper-button-prev ctrl prev-ctrl">
+                                                                <i class="material-icons">arrow_back</i>
+                                                                <!-- Icon has to be placed-->
+                                                            </div> 
+    
+                                                            <div class="swipper-button-next ctrl next-ctrl">
+                                                                <i class="material-icons">arrow_forward</i>
+                                                                <!-- Icon has to be placed-->
+                                                            </div> 
+                                                        </div>
+                                                    </div>
+    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <!--slider 3-->
+                                    <div class="swiper-slide">
+                                        <div class="img-container">
+                                            <img src="../asset/two.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="containercontainer">
+                                            <div class="row">
+                                                <div class="col-md-8 offset-md-4 offset-3">
+                                                    <div class="wrapper">
+                                                       
+                                                        <div class="controls">
+                                                            <div class="swipper-button-prev ctrl prev-ctrl">
+                                                                <i class="material-icons">arrow_back</i>
+                                                                <!-- Icon has to be placed-->
+                                                            </div> 
+    
+                                                            <div class="swipper-button-next ctrl next-ctrl">
+                                                                <i class="material-icons">arrow_forward</i>
+                                                                <!-- Icon has to be placed-->
+                                                            </div> 
+                                                        </div>
+                                                    </div>
+    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                        </div>
+                   </div>
+       
+    
+    
+    
+               </div>
+    
+               <div class="inputdiv">
+                   <form>
+                    <input type="text" placeholder="Answer Please!">
+                    </form>
+    </form>
+    
+               </div>
+               <div class="buttontag">
+                   <div class="row">
+                       <div class="col-6"> <button type="button" id="hintbutton"> Hint</button> </div>
+                       <div class="col-6"> <button type="button" id="answerbutton">Answer</button> </div>
+                  
+                </div>
+               </div>
+          </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+
+   
+
+    <!--Bootstrap CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--Custom Javascript file-->
+<script  src="../js/questioncarousel1.js"></script>
+   <script src="../js/questioncarousel0.js"></script> 
+
+
+    <script type="text/javascript">
+    function ui()
+{
+ document.getElementById("section1").style.display = "block";
+ document.getElementById("section2").style.display = "none";
+ document.getElementById("leaderboard").style.backgroundColor = defaultcolor;
+ document.getElementById("quiz").style.backgroundColor = activecolor;
+
+};
+var activecolor = 'rgba(238,113,0,1)';
+
+var defaultcolor = '#1A1B1E';
+function ux()
+{
+    document.getElementById("section1").style.display = "none";
+ document.getElementById("section2").style.display = "block";
+ document.getElementById("leaderboard").style.backgroundColor = activecolor;
+ document.getElementById("quiz").style.backgroundColor = defaultcolor;
+ 
+};
+
+    </script>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--Swiper CDN Script-->
+<script src="https://unpkg.com/swiper/js/swiper.js"></script>
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+
+
+</body>
+</html>

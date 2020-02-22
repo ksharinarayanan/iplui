@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
+ 
+</head>
+<body>
+    <div class="container-fluid login">
+        <div class="row justify-content-center">
+            <div class="col-10 col-md-4 form">
+                <h2>Login</h2>
+                <form action="" id="logform">
+                    <div class="input">
+                        <div class="inputbox">
+                            <label>Email</label>
+                            <input type="email" placeholder="example@gmail.com">
+                        </div>
+      
+                    
+                        <div class="inputbox">
+                            <label>Password</label>
+                            <input type="password" placeholder="******">
+                        </div>
+                    
+                        <div class="inputbox">
+                            <input type="submit" value="Login" id="logbutton">
+    
+                        </div>
+                        <div class="signupitems">
+                            <div class="inputbox">
+                                <label class="newuser">New User?</label>
+                                <input type="button" value="Signup" onclick="hmm()">
+                                
+                            </div>
+                        </div>
+                     
+    
+                </div>
+                </form>
+              
+        </div>
+    </div>
+    </div>
+    <script>
+        $('#logform').keydown(function() {
+var key = e.which;
+if (key == 13) {
+$('#logform').submit(); 
+}
+});
+
+    </script>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+</body>
+</html>

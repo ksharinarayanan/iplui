@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Page</title>
+    <!--Bootstrap Links-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid ">
+  	<div class="row justify-content-center">
+
+	<div class="col-10 col-md-4 form">
+		<form>
+		<h2>Profile</h2>
+		<div class="input">
+			<div class="inputBox">
+				<label>User Name</label>
+				<input type="text" name="" placeholder="name" required>
+			</div>
+			<div class="inputBox">
+				<label>Email</label>
+				<input type="email" name="" placeholder="abc@gmail.com" required>
+			</div>
+			<div class="inputBox">
+				<label>Contact Number</label>
+				<input type="number" name="" placeholder="9000111000"required>
+			</div>
+			<div class="inputBox">
+				<label>College Name</label>
+				<input type="text" name="" placeholder="college" required>
+			</div>
+			<div class="inputBox">
+				<label>Password</label>
+				<input type="password" name="" id="pwd" placeholder="****" required>
+			</div>
+						<div class="inputBox">
+				<label>Confirm Password</label>
+				<input type="password" name="" id="cpwd" placeholder="****" required>
+			</div>
+					<div class="inputBox">
+				
+			<div id="showErrorPwd"></div>
+			</div>
+			<div class="inputBox">
+				
+				<input type="submit" name="" value="Sign Up" id="login"> 
+			</div>
+		</div>
+		</form>
+	</div>
+</div>
+
+			</div>
+
+
+<script>
+	
+$(document).ready(function()
+{
+		$('#cpwd').keyup(function()
+		{
+			var pwd=$('#pwd').val();
+		   var cpwd=$('#cpwd').val();
+
+		   if(cpwd!=pwd)
+		   {
+		   	$('#showErrorPwd').html('Passwords are not matching');
+		    $('#showErrorPwd').css('color','red');
+		    return false;
+		   }
+		   else
+		   {
+		   		$('#showErrorPwd').html('');
+		   
+		    return false;
+		   }
+		});
+
+	});
+</script>
+</body>
+</html>
